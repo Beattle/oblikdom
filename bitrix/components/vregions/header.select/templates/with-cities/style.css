@@ -1,0 +1,198 @@
+.vregions-panel{
+    width: 362px;
+}
+
+.vregions-panel a label{
+    color: #000000;
+}
+
+#vregions-sepia{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 999;
+    background: url(/bitrix/components/vregions/header.select/templates/popup/images/sepia-dark.png) repeat 0 0;
+}
+
+.vregion-popup-link a{
+    text-decoration: none;
+}
+
+.vregion-popup-link a span{
+    border-bottom: 1px dotted;
+}
+
+.popup-white{
+    background: #fff;
+    position: relative;
+    border-radius: 5px;
+}
+
+#vregions-popup{
+    width: 768px;
+    height: 314px;
+}
+
+#vregions-popup-with-all-cities{
+    width: 768px;
+}
+
+.popup-white .bw-title-shadow{
+    background: url(/bitrix/components/vregions/header.select/templates/with-cities/images/shadow-title-popup.png) no-repeat 50% 100%;
+    padding-left: 25px;
+}
+
+.popup-white .bw-title-shadow h3{
+    line-height: 60px;
+    color: #000;
+    margin: 10px 0px;
+}
+
+.vregions-list p{
+    padding-left: 25px;
+}
+
+.vregions-list .col{
+    float: left;
+    padding-left: 25px;
+    width: 231px;
+}
+
+.vregions-list ul{
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.vregions-list a{
+    color: #3d3d3d;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: underline;
+}
+
+.vregions-list a:hover,
+.vregions-list .active a{
+    text-decoration: underline;
+    color: #156ba0;
+}
+
+#vregions-popup-que{
+    /* margin:-157px 0 0 -384px; */
+    width: 768px;
+    height: 314px;
+}
+
+.vregions-que-body{
+    color: #000;
+    padding-left: 25px;
+}
+
+.vregions-que-body a{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 0 5px 5px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.vregions-que-body a:hover, .vregions-que-body a:focus, .vregions-que-body a:active{
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+.clearfix:before,
+.clearfix:after{
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.clearfix:after{
+    clear: both;
+}
+
+.arcticmodal-overlay,
+.arcticmodal-container{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+}
+
+.arcticmodal-container{
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-collapse: collapse;
+}
+
+*:first-child + html .arcticmodal-container{
+    height: 100%
+}
+
+.arcticmodal-container_i{
+    height: 100%;
+    margin: 0 auto;
+}
+
+.arcticmodal-container_i2{
+    padding: 24px;
+    margin: 0;
+    border: 0;
+    vertical-align: middle;
+}
+
+.arcticmodal-error{
+    padding: 20px;
+    border-radius: 10px;
+    background: #000;
+    color: #fff;
+}
+
+.arcticmodal-loading{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background: #000 url(/bitrix/components/vregions/header.select/templates/with-cities/images/loading.gif) no-repeat 50% 50%;
+}
+
+.box-modal_close{
+    width: 21px;
+    height: 21px;
+    display: block;
+    position: absolute;
+    right: 17px;
+    top: 19px;
+    background: url(/bitrix/components/vregions/header.select/templates/with-cities/images/close.png) no-repeat 0 0;
+    font-size: 0;
+    text-indent: -9999px;
+    cursor: pointer;
+}
